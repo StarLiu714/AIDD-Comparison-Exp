@@ -1,0 +1,430 @@
+----------------------------------------------------------------
+Dataset: Benchmark/Dielectric/dielectric_constant.csv
+
+----------------------------------------------------------------
+Seed: 0, 
+
+Result:
+batch_size: 8
+learning_rate: 0.05
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.1629767183933155, Avg RMSE: 406.51454617877647
+
+Result:
+batch_size: 8
+learning_rate: 0.01
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.45748034701691775, Avg RMSE: 14.795313015312846
+
+Result:
+batch_size: 8
+learning_rate: 0.005
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.4243098572029286, Avg RMSE: 14.636225549309561
+
+Result:
+batch_size: 8
+learning_rate: 0.001
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.8522590037960069, Avg RMSE: 7.362750395297667
+
+Result:
+batch_size: 8
+learning_rate: 0.0005
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.8536024132179676, Avg RMSE: 7.52667607997044
+
+Result:
+batch_size: 8
+learning_rate: 0.0001
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.874118448351717, Avg RMSE: 6.722270361825903
+
+Result:
+batch_size: 16
+learning_rate: 0.05
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.16002532802273922, Avg RMSE: 34.00134743323629
+
+Result:
+batch_size: 16
+learning_rate: 0.01
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.509022584730853, Avg RMSE: 13.680321085571569
+
+Result:
+batch_size: 16
+learning_rate: 0.005
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.4354355055695847, Avg RMSE: 14.564822282032452
+
+Result:
+batch_size: 16
+learning_rate: 0.001
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.807613096866654, Avg RMSE: 8.01580106112719
+
+Result:
+batch_size: 16
+learning_rate: 0.0005
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.8790293067910652, Avg RMSE: 7.07567756284911
+
+Result:
+batch_size: 16
+learning_rate: 0.0001
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.8635052137377961, Avg RMSE: 7.669319683340836
+
+
+----------------------------------------------------------------
+Best R2: 0.8790293067910652, Best Validation RMSE: 0.8790293067910652
+Best Params: batch_size: 16, learning_rate: 0.0005, embedding: 200, seed: 0, smile_str: SMILES, n_tasks: 1, epoch: 100, dataset: Benchmark/Dielectric/dielectric_constant.csv
+Test R2: 0.8939475611449322, Test RMSE: 5.5675101289310165
+
+----------------------------------------------------------------
+Seed: 42, 
+
+Result:
+batch_size: 8
+learning_rate: 0.05
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.3157819641008485, Avg RMSE: 16.511738942327295
+
+Result:
+batch_size: 8
+learning_rate: 0.01
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.44239533932317493, Avg RMSE: 16.031147985776983
+
+Result:
+batch_size: 8
+learning_rate: 0.005
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.41340535954282903, Avg RMSE: 14.962886821810889
+
+Result:
+batch_size: 8
+learning_rate: 0.001
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.8457580314601104, Avg RMSE: 7.658585552091121
+
+Result:
+batch_size: 8
+learning_rate: 0.0005
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.8360939411958952, Avg RMSE: 7.699992007132512
+
+Result:
+batch_size: 8
+learning_rate: 0.0001
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.8689043935690798, Avg RMSE: 6.708633563320488
+
+Result:
+batch_size: 16
+learning_rate: 0.05
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.23965485718648843, Avg RMSE: 16.886615384255087
+
+Result:
+batch_size: 16
+learning_rate: 0.01
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.5066847002224609, Avg RMSE: 13.040878046395624
+
+Result:
+batch_size: 16
+learning_rate: 0.005
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.49283015632742816, Avg RMSE: 13.380592760209897
+
+Result:
+batch_size: 16
+learning_rate: 0.001
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.835326476064186, Avg RMSE: 7.701621347288528
+
+Result:
+batch_size: 16
+learning_rate: 0.0005
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.8313173161624793, Avg RMSE: 8.381447897493889
+
+Result:
+batch_size: 16
+learning_rate: 0.0001
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.8620386493566004, Avg RMSE: 7.015073631894021
+
+
+----------------------------------------------------------------
+Best R2: 0.8689043935690798, Best Validation RMSE: 0.8689043935690798
+Best Params: batch_size: 8, learning_rate: 0.0001, embedding: 200, seed: 42, smile_str: SMILES, n_tasks: 1, epoch: 100, dataset: Benchmark/Dielectric/dielectric_constant.csv
+Test R2: 0.9057357592937707, Test RMSE: 5.228850286605746
+
+----------------------------------------------------------------
+Seed: 666, 
+
+Result:
+batch_size: 8
+learning_rate: 0.05
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.3547473036762732, Avg RMSE: 18.880144317529485
+
+Result:
+batch_size: 8
+learning_rate: 0.01
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.46065188806156077, Avg RMSE: 14.03749366440889
+
+Result:
+batch_size: 8
+learning_rate: 0.005
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.44795509297451996, Avg RMSE: 14.358449161543348
+
+Result:
+batch_size: 8
+learning_rate: 0.001
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.8185571166660471, Avg RMSE: 8.275246522223759
+
+Result:
+batch_size: 8
+learning_rate: 0.0005
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.8302945424735677, Avg RMSE: 8.35210002782239
+
+Result:
+batch_size: 8
+learning_rate: 0.0001
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.8803149024514847, Avg RMSE: 7.46548299292768
+
+Result:
+batch_size: 16
+learning_rate: 0.05
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.2391393782705144, Avg RMSE: 600013.6423458197
+
+Result:
+batch_size: 16
+learning_rate: 0.01
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.5014965628781133, Avg RMSE: 13.431879888616223
+
+Result:
+batch_size: 16
+learning_rate: 0.005
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.48057345501560106, Avg RMSE: 13.744269479665842
+
+Result:
+batch_size: 16
+learning_rate: 0.001
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.8535091456662691, Avg RMSE: 7.687967191342454
+
+Result:
+batch_size: 16
+learning_rate: 0.0005
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.8578242071780288, Avg RMSE: 7.783583397129479
+
+Result:
+batch_size: 16
+learning_rate: 0.0001
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Dielectric/dielectric_constant.csv
+Avg R2: 0.8477167367825628, Avg RMSE: 8.63231710481038
+
+
+----------------------------------------------------------------
+Best R2: 0.8803149024514847, Best Validation RMSE: 0.8803149024514847
+Best Params: batch_size: 8, learning_rate: 0.0001, embedding: 200, seed: 666, smile_str: SMILES, n_tasks: 1, epoch: 100, dataset: Benchmark/Dielectric/dielectric_constant.csv
+Test R2: 0.9137993438522247, Test RMSE: 4.852125408756647
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+3 Seeds Avg: 
+R2: 0.9044942214303093, RMSE: 5.216161941431136

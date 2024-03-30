@@ -1,0 +1,430 @@
+----------------------------------------------------------------
+Dataset: Benchmark/Density/density.csv
+
+----------------------------------------------------------------
+Seed: 0, 
+
+Result:
+batch_size: 8
+learning_rate: 0.05
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.1400847356097949, Avg RMSE: 1.5904596985221808
+
+Result:
+batch_size: 8
+learning_rate: 0.01
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.3328762558923706, Avg RMSE: 0.43547990160625377
+
+Result:
+batch_size: 8
+learning_rate: 0.005
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.3174105381291011, Avg RMSE: 0.4619919361802152
+
+Result:
+batch_size: 8
+learning_rate: 0.001
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9849032805248777, Avg RMSE: 0.042805912742771554
+
+Result:
+batch_size: 8
+learning_rate: 0.0005
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9857821932102906, Avg RMSE: 0.04179894018429563
+
+Result:
+batch_size: 8
+learning_rate: 0.0001
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9850499778862082, Avg RMSE: 0.04562615702759338
+
+Result:
+batch_size: 16
+learning_rate: 0.05
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.13057950456266623, Avg RMSE: 40.546336947101125
+
+Result:
+batch_size: 16
+learning_rate: 0.01
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.3584907684988613, Avg RMSE: 0.38572546555469217
+
+Result:
+batch_size: 16
+learning_rate: 0.005
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.5236926731705038, Avg RMSE: 0.29839933593585133
+
+Result:
+batch_size: 16
+learning_rate: 0.001
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9861932628008443, Avg RMSE: 0.043200320884973185
+
+Result:
+batch_size: 16
+learning_rate: 0.0005
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9808572889457663, Avg RMSE: 0.04428398238089346
+
+Result:
+batch_size: 16
+learning_rate: 0.0001
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9814329120648854, Avg RMSE: 0.04155159554251462
+
+
+----------------------------------------------------------------
+Best R2: 0.9861932628008443, Best Validation RMSE: 0.9861932628008443
+Best Params: batch_size: 16, learning_rate: 0.001, embedding: 200, seed: 0, smile_str: SMILES, n_tasks: 1, epoch: 100, dataset: Benchmark/Density/density.csv
+Test R2: 0.9845985381187693, Test RMSE: 0.05395873072177436
+
+----------------------------------------------------------------
+Seed: 42, 
+
+Result:
+batch_size: 8
+learning_rate: 0.05
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.06725725331604294, Avg RMSE: 47.72055773344655
+
+Result:
+batch_size: 8
+learning_rate: 0.01
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.3766330409240961, Avg RMSE: 0.4300869202009426
+
+Result:
+batch_size: 8
+learning_rate: 0.005
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.35811767916962406, Avg RMSE: 0.40660683278986537
+
+Result:
+batch_size: 8
+learning_rate: 0.001
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.982884240285976, Avg RMSE: 0.04083193838002723
+
+Result:
+batch_size: 8
+learning_rate: 0.0005
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9844723335425165, Avg RMSE: 0.038755174148602425
+
+Result:
+batch_size: 8
+learning_rate: 0.0001
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9851339264226493, Avg RMSE: 0.040046917833452364
+
+Result:
+batch_size: 16
+learning_rate: 0.05
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.06422052012340597, Avg RMSE: 90.99258102923503
+
+Result:
+batch_size: 16
+learning_rate: 0.01
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.3913813926609023, Avg RMSE: 0.42515931191299333
+
+Result:
+batch_size: 16
+learning_rate: 0.005
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.38625961124495367, Avg RMSE: 0.35479247823467064
+
+Result:
+batch_size: 16
+learning_rate: 0.001
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9855607321842748, Avg RMSE: 0.04208937512734262
+
+Result:
+batch_size: 16
+learning_rate: 0.0005
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9780568616461981, Avg RMSE: 0.04600974542737046
+
+Result:
+batch_size: 16
+learning_rate: 0.0001
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9847579700400197, Avg RMSE: 0.04275673877834776
+
+
+----------------------------------------------------------------
+Best R2: 0.9855607321842748, Best Validation RMSE: 0.9855607321842748
+Best Params: batch_size: 16, learning_rate: 0.001, embedding: 200, seed: 42, smile_str: SMILES, n_tasks: 1, epoch: 100, dataset: Benchmark/Density/density.csv
+Test R2: 0.9904033120854095, Test RMSE: 0.03215642875654991
+
+----------------------------------------------------------------
+Seed: 666, 
+
+Result:
+batch_size: 8
+learning_rate: 0.05
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.13904972567620982, Avg RMSE: 31.305338223593786
+
+Result:
+batch_size: 8
+learning_rate: 0.01
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.2554742588990235, Avg RMSE: 1.177072881213418
+
+Result:
+batch_size: 8
+learning_rate: 0.005
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.40804789657824736, Avg RMSE: 0.48666820934659033
+
+Result:
+batch_size: 8
+learning_rate: 0.001
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9820347708362114, Avg RMSE: 0.049864984554388495
+
+Result:
+batch_size: 8
+learning_rate: 0.0005
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9823938398343092, Avg RMSE: 0.04229938367132908
+
+Result:
+batch_size: 8
+learning_rate: 0.0001
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9855691491292641, Avg RMSE: 0.0426251269648992
+
+Result:
+batch_size: 16
+learning_rate: 0.05
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.2223329993773011, Avg RMSE: 13.603402182323142
+
+Result:
+batch_size: 16
+learning_rate: 0.01
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.2764113158839284, Avg RMSE: 1.53244526024181
+
+Result:
+batch_size: 16
+learning_rate: 0.005
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.45257299934342915, Avg RMSE: 0.3502054099531389
+
+Result:
+batch_size: 16
+learning_rate: 0.001
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9841141668057626, Avg RMSE: 0.04014922644964068
+
+Result:
+batch_size: 16
+learning_rate: 0.0005
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9846049385520805, Avg RMSE: 0.04372185328562922
+
+Result:
+batch_size: 16
+learning_rate: 0.0001
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9853886841601479, Avg RMSE: 0.03862781853500172
+
+
+----------------------------------------------------------------
+Best R2: 0.9855691491292641, Best Validation RMSE: 0.9855691491292641
+Best Params: batch_size: 8, learning_rate: 0.0001, embedding: 200, seed: 666, smile_str: SMILES, n_tasks: 1, epoch: 100, dataset: Benchmark/Density/density.csv
+Test R2: 0.9866977936964983, Test RMSE: 0.03548058822904485
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+3 Seeds Avg: 
+R2: 0.9872332146335591, RMSE: 0.04053191590245637

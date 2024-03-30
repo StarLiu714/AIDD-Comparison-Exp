@@ -1,0 +1,298 @@
+----------------------------------------------------------------
+Dataset: Benchmark/Density/density.csv
+
+----------------------------------------------------------------
+Seed: 0, 
+
+Result:
+batch_size: 8
+learning_rate: 0.005
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9317155129348947, Avg RMSE: 0.08548672546104548
+
+Result:
+batch_size: 8
+learning_rate: 0.001
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.976117503141808, Avg RMSE: 0.043538932789036484
+
+Result:
+batch_size: 8
+learning_rate: 0.0005
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9751981542162801, Avg RMSE: 0.04443181377496219
+
+Result:
+batch_size: 8
+learning_rate: 0.0001
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.978870026958689, Avg RMSE: 0.04083649042136074
+
+Result:
+batch_size: 16
+learning_rate: 0.005
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9719965665498371, Avg RMSE: 0.04871553349354037
+
+Result:
+batch_size: 16
+learning_rate: 0.001
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9756609033598318, Avg RMSE: 0.044521522349032026
+
+Result:
+batch_size: 16
+learning_rate: 0.0005
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9756026573726414, Avg RMSE: 0.04371002118804534
+
+Result:
+batch_size: 16
+learning_rate: 0.0001
+embedding: 200
+seed: 0
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.977510936773978, Avg RMSE: 0.042197076220099924
+
+
+----------------------------------------------------------------
+Best R2: 0.978870026958689, Best Validation RMSE: 0.978870026958689
+Best Params: batch_size: 8, learning_rate: 0.0001, embedding: 200, seed: 0, smile_str: SMILES, n_tasks: 1, epoch: 100, dataset: Benchmark/Density/density.csv
+Test R2: 0.9833953671773207, Test RMSE: 0.03532809360661017
+
+----------------------------------------------------------------
+Seed: 42, 
+
+Result:
+batch_size: 8
+learning_rate: 0.005
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9384742244416333, Avg RMSE: 0.07577571541959383
+
+Result:
+batch_size: 8
+learning_rate: 0.001
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9738818555741224, Avg RMSE: 0.045592147453475396
+
+Result:
+batch_size: 8
+learning_rate: 0.0005
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9763907011515002, Avg RMSE: 0.043297282763264736
+
+Result:
+batch_size: 8
+learning_rate: 0.0001
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9784689945383664, Avg RMSE: 0.041320726036845605
+
+Result:
+batch_size: 16
+learning_rate: 0.005
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9703977170797943, Avg RMSE: 0.055274088305626724
+
+Result:
+batch_size: 16
+learning_rate: 0.001
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9779693444044145, Avg RMSE: 0.04182186008878697
+
+Result:
+batch_size: 16
+learning_rate: 0.0005
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9751339140314161, Avg RMSE: 0.04413718629816188
+
+Result:
+batch_size: 16
+learning_rate: 0.0001
+embedding: 200
+seed: 42
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9807578113799333, Avg RMSE: 0.039403514391835336
+
+
+----------------------------------------------------------------
+Best R2: 0.9807578113799333, Best Validation RMSE: 0.9807578113799333
+Best Params: batch_size: 16, learning_rate: 0.0001, embedding: 200, seed: 42, smile_str: SMILES, n_tasks: 1, epoch: 100, dataset: Benchmark/Density/density.csv
+Test R2: 0.9842402653364953, Test RMSE: 0.03821220113246347
+
+----------------------------------------------------------------
+Seed: 666, 
+
+Result:
+batch_size: 8
+learning_rate: 0.005
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9692654095310879, Avg RMSE: 0.050449585549833476
+
+Result:
+batch_size: 8
+learning_rate: 0.001
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9774488970726711, Avg RMSE: 0.042774384363971456
+
+Result:
+batch_size: 8
+learning_rate: 0.0005
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9746315513569221, Avg RMSE: 0.04509524035231402
+
+Result:
+batch_size: 8
+learning_rate: 0.0001
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9771891242435163, Avg RMSE: 0.042136298235279576
+
+Result:
+batch_size: 16
+learning_rate: 0.005
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.953859065405003, Avg RMSE: 0.06587191571235729
+
+Result:
+batch_size: 16
+learning_rate: 0.001
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9755394977576642, Avg RMSE: 0.045325460654742675
+
+Result:
+batch_size: 16
+learning_rate: 0.0005
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9748352753135133, Avg RMSE: 0.04444362597113711
+
+Result:
+batch_size: 16
+learning_rate: 0.0001
+embedding: 200
+seed: 666
+smile_str: SMILES
+n_tasks: 1
+epoch: 100
+dataset: Benchmark/Density/density.csv
+Avg R2: 0.9794070406981932, Avg RMSE: 0.0419362102600593
+
+
+----------------------------------------------------------------
+Best R2: 0.9794070406981932, Best Validation RMSE: 0.9794070406981932
+Best Params: batch_size: 16, learning_rate: 0.0001, embedding: 200, seed: 666, smile_str: SMILES, n_tasks: 1, epoch: 100, dataset: Benchmark/Density/density.csv
+Test R2: 0.9642468904071606, Test RMSE: 0.056188981646929065
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+3 Seeds Avg: 
+R2: 0.9772941743069922, RMSE: 0.043243092128667567
