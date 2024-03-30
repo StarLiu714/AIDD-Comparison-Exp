@@ -1,0 +1,16 @@
+{
+  "batch_size": [8, 16],
+  "learning_rate": [0.01, 0.005, 0.001, 0.0005, 0.0001],
+  "embedding": [200],
+  "seed": [0, 42, 666],
+  "smile_str": ["SMILES"],
+  "n_tasks": [1],
+  "epoch": [100],
+  "dataset": [
+    "Benchmark/Dielectric/dielectric_constant.csv",
+    "Benchmark/Density/density.csv",
+    "Benchmark/Melting_Point/JCB_melting_point.csv",
+    "Benchmark/Boiling_Point/TJU_boiling_point.csv",
+    "Benchmark/Refractive_Index/refractive_index.csv"
+  ]
+}
