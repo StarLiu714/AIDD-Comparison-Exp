@@ -1,0 +1,14 @@
+{
+  "n_estimators": [100, 200, 300],
+  "max_depth": [10, 20, 30, 100],
+  "min_samples_split": [2, 5, 10],
+  "min_samples_leaf": [1, 2, 4],
+  "max_features": ["sqrt", "log2"],
+  "bootstrap": [true, false],
+  "seed": [42],
+  "smile_str": ["SMILES"],
+  "n_tasks": [1],
+  "tr_val_dataset": [
+    "Benchmark/SMILES12k/train_val_CYP2D6.csv"
+  ]
+}
