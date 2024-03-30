@@ -30,7 +30,6 @@ def process_dataset(
     data = pd.read_csv(dataset_file)
     # Split dataset
     train_valid_data, test_data = train_test_split(data, test_size=0.1, random_state=seed)
-    test_data.to_csv('test_dataset.csv', index=False)
 
     # Prepare for 5-fold cross-validation
     kf = KFold(n_splits=kfold, shuffle=True, random_state=seed)
