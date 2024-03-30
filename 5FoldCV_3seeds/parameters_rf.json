@@ -1,0 +1,16 @@
+{
+  "n_estimators": [100, 200, 300],
+  "max_depth": [10, 20, 30, 100],
+  "min_samples_split": [2, 5, 10],
+  "min_samples_leaf": [1, 2, 4],
+  "max_features": ["auto", "sqrt"],
+  "bootstrap": [true, false],
+  "seed": [0, 42, 666],
+  "smile_str": ["SMILES"],
+  "n_tasks": [1],
+  "iters": [100],
+  "dataset": [
+    "Benchmark/pubchem_cyp2d6_similar/test0_SMILES12k.csv",
+    "Benchmark/pubchem_cyp2d6_similar/test1_SMILES12k.csv"
+  ]
+}
