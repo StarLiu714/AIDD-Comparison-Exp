@@ -1,6 +1,6 @@
 import deepchem as dc
-from deepchem.models import GCNModel
-from deepchem.feat import MolGraphConvFeaturizer
+from deepchem.models.torch_models.dmpnn import DMPNNModel
+from deepchem.feat import DMPNNFeaturizer
 import json
 import torch
 from itertools import product
@@ -11,7 +11,7 @@ import numpy as np
 
 
 # Global: Path to the parameters file
-MODEL_NAME = 'GCN'
+MODEL_NAME = 'DMPNN'
 PARAMS_JSON_PATH = f'parameters_{MODEL_NAME}.json'
 K_FOLD = 3
 test_csv_path = "Benchmark/SMILES12k/SMILES12k.csv"
@@ -31,7 +31,7 @@ def process_dataset(
         log_file.write(f"Seed: {seed}, \n\n")
 
     # Load dataset
-    featurizer = MolGraphConvFeaturizer(use_edges=True)
+    featurizer = DMPNNFeaturizer()
     data = pd.read_csv(dataset_file)
 
     kf = KFold(n_splits=kfold, shuffle=True, random_state=seed)
@@ -69,9 +69,9 @@ def process_dataset(
                 for transformer in transformers:
                     dataset = transformer.transform(dataset)
 
-            model = GCNModel(
-                mode='classification',
-                n_tasks=n_tasks, batch_size=batch_size, learning_rate=learning_rate
+            model = DMPNNModel(
+                mode='classification', n_tasks=n_tasks,
+                batch_size=batch_size, learning_rate=learning_rate
                 )
             if device == torch.device("cuda"):
                 torch.cuda.empty_cache()

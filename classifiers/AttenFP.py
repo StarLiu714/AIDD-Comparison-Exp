@@ -1,5 +1,5 @@
 import deepchem as dc
-from deepchem.models import GCNModel
+from deepchem.models import AttentiveFPModel
 from deepchem.feat import MolGraphConvFeaturizer
 import json
 import torch
@@ -11,7 +11,7 @@ import numpy as np
 
 
 # Global: Path to the parameters file
-MODEL_NAME = 'GCN'
+MODEL_NAME = 'AttenFP'
 PARAMS_JSON_PATH = f'parameters_{MODEL_NAME}.json'
 K_FOLD = 3
 test_csv_path = "Benchmark/SMILES12k/SMILES12k.csv"
@@ -69,7 +69,7 @@ def process_dataset(
                 for transformer in transformers:
                     dataset = transformer.transform(dataset)
 
-            model = GCNModel(
+            model = AttentiveFPModel(
                 mode='classification',
                 n_tasks=n_tasks, batch_size=batch_size, learning_rate=learning_rate
                 )
@@ -123,8 +123,8 @@ def process_dataset(
     print(f"Predicting test set with best model...")
     test_prob_predictions = best_model.predict(test_dataset)
     test_predictions = np.argmax(test_prob_predictions, axis=1)
-    test_data['Prob_Predictions'] = test_prob_predictions[:, 0]
     test_data['Prediction'] = test_predictions
+    test_data['Prob_Predictions'] = test_prob_predictions[:, 0]
     test_data.to_csv(f"{model_name}_test_predictions_{seed}.csv", index=False)
 
     return best_auc, best_accuracy
