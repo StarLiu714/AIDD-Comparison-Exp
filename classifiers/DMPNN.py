@@ -65,12 +65,12 @@ def process_dataset(
 
             transformers = [
                 dc.trans.NormalizationTransformer(transform_y=True, dataset=train_dataset)]
-            for dataset in [train_dataset, val_dataset]:
-                for transformer in transformers:
-                    dataset = transformer.transform(dataset)
+            for transformer in transformers:
+                train_dataset = transformer.transform(train_dataset)
+                val_dataset = transformer.transform(val_dataset)
 
             model = DMPNNModel(
-                mode='classification', n_tasks=n_tasks,
+                mode='classification', n_tasks=n_tasks, n_classes=2,
                 batch_size=batch_size, learning_rate=learning_rate
                 )
             if device == torch.device("cuda"):
